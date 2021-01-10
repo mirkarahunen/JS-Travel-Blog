@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Living travel life</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/media-query.css">
+</head>
+
+<body>
+  <div class="page-content">
+
+    <button type="button" name="back-to-top" id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+
+    <!--- HEADER START --->
+    <div class="header-content">
+      <div class="header-logo">
+        <a href="index.html"><img src="img/website/travel-logo2.png" alt=""></a>
+        <div class="burger-menu">
+          <button id="burger" type="button" name="button" class="click"><span class="burger"><i class="fa fa-bars"></i></span></button>
+        </div>
+      </div>
+    </div>
+
+    <!--- HEADER END --->
+
+    <!--- NAVIGATION CONTENT--->
+    <div class="navigation-content">
+      <div class="main-navigation">
+        <div class="navigation">
+          <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="about.html">About me</a></li>
+            <div class="dropdown">
+              <li class="nav"><a href="">Destinations<i class="fa fa-caret-down"></i></a></li>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="#">Tansania</a></li>
+                  <li><a href="#">New York</a></li>
+                  <li><a href="#">Rio de Janeiro</a></li>
+                </ul>
+              </div>
+            </div>
+            <li class="nav"><a href="#">What to pack</a></li>
+            <li class="nav"><a href="gallery.html">Gallery</a></li>
+            <li class="nav active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navigation-icons">
+          <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="img/website/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="img/website/instagram.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="img/website/twitter.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="img/website/youtube.png" alt=""></a></li>
+            <li><a href="https://www.pinterest.com" target="_blank"><img src="img/website/pinterest.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--- MOBILE NAVIGATION --->
+
+    <div class="navigation mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li class="mobile-toggle"><a href="#">Destinations<i class="fa fa-caret-down"></i></a></li>
+        <div class="dropdown-content-mobile">
+          <ul>
+            <li><a href="#">Tansania</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Rio de Janeiro</a></li>
+          </ul>
+        </div>
+        <li><a href="#">What to pack</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <!--- MAIN CONTENT START --->
+
+    <div class="main-content">
+
+      <!--- CONTACT FORM CONTENT START --->
+
+      <div class="contact-container">
+        <div class="contact-headline">
+          <h2>Drop me a line and subscribe for the newsletter about new posts!</h2>
+        </div>
+        <div class="form">
+          <form action="#" name="contactForm" class="contact-info" method="post">
+            <div class="radio-buttons-title">
+              <label for="title">Title</label>
+              <input class="form-title" type="radio" name="title" value="Prof.">
+              <label class="check-title" type="text">Prof.</label>
+              <input class="form-title" type="radio" name="title" value="Dr.">
+              <label class="check-title" type="text">Dr.</label>
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="form-section">
+              <small class="mandatory-text">Remember to fill in the mandatory fields!</small>
+            </div>
+            <div class="form-section">
+              <label for="firstname">Firstname <span class="mandatory-field">*</span></label>
+              <input type="text" name="firstname" placeholder="Your firstname">
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="form-section">
+              <label for="lastname">Lastname <span class="mandatory-field">*</span></label>
+              <input type="text" name="lastname" placeholder="Your lastname">
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="form-section">
+              <label for="email">E-Mail <span class="mandatory-field">*</span></label>
+              <input type="text" name="email" placeholder="E-Mail">
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="form-section">
+              <label for="phonenumber">Phonenumber <span class="mandatory-field">*</span></label>
+              <input type="text" name="phonenumber" placeholder="Phonenumber">
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="form-section">
+              <label for="message">Your message <span class="mandatory-field">*</span></label>
+              <textarea name="message" rows="" cols=""></textarea>
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="checkbox">
+              <label for="newsletter-checkbox">Newsletter</label>
+              <input type="checkbox" name="newsletter-checkbox" value="newsletter-checkbox">
+              <label class="gdpr" for="gdpr">I accept GDPR <span class="mandatory-field">*</span></label>
+              <input type="checkbox" name="gdpr" value="gdpr">
+              <small class="form-text ">Empty Input</small>
+            </div>
+            <div class="select-list">
+              <label class="select-box-label">How did you get to know about the website? <span class="mandatory-field">*</span></label>
+              <select type="text" name="select-list">
+                <option value="" selected>Select an option</option>
+                <option value="surfing">Surfing on the internet</option>
+                <option value="friends">Heard from friends/family</option>
+                <option value="radio">Heard you on the radio</option>
+                <option value="newspaper">Read about you on the newspaper</option>
+              </select>
+              <small class="form-text">Empty Input</small>
+            </div>
+            <div class="btn-submit">
+              <button type="submit" value="Submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--- MAIN CONTENT END --->
+
+    <!--- FOOTER START --->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>Copyright 2020. All rights reserved</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="footer-nav"><a href="contact.html">Contact</a></li>
+            <li class="footer-nav"><a href="#">Press</a></li>
+          </ul>
+          <div class="footer-icons">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="img/website/facebook.png" alt=""></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="img/website/instagram.png" alt=""></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="img/website/twitter.png" alt=""></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><img src="img/website/youtube.png" alt=""></a></li>
+              <li><a href="https://www.pinterest.com" target="_blank"><img src="img/website/pinterest.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- FOOTER END --->
+
+  </div>
+
+
+  <script src="js/navigation.js" charset="utf-8"></script>
+  <script src="js/backtotop.js" charset="utf-8"></script>
+  <script src="js/validation.js" charset="utf-8"></script>
+</body>
+
+</html>

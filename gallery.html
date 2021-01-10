@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Living travel life</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/media-query.css">
+
+</head>
+
+<body>
+  <div class="page-content">
+
+    <button type="button" name="back-to-top" id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+
+    <!--- HEADER START --->
+    <div class="header-content">
+      <div class="header-logo">
+        <a href="index.html"><img src="img/website/travel-logo2.png" alt=""></a>
+      </div>
+    </div>
+    <div class="burger-menu">
+      <button id="burger" type="button" name="button" class="click"><span><i class="fa fa-bars"></i></span></button>
+    </div>
+
+    <!--- HEADER END --->
+
+    <!--- NAVIGATION CONTENT--->
+    <div class="navigation-content">
+      <div class="main-navigation">
+        <div class="navigation">
+          <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="about.html">About me</a></li>
+            <div class="dropdown">
+              <li class="nav"><a href="">Destinations<i class="fa fa-caret-down"></i></a></li>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="#">Tansania</a></li>
+                  <li><a href="#">New York</a></li>
+                  <li><a href="#">Rio de Janeiro</a></li>
+                </ul>
+              </div>
+            </div>
+            <li class="nav"><a href="">What to pack</a></li>
+            <li class="nav active"><a href="gallery.html">Gallery</a></li>
+            <li class="nav"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navigation-icons">
+          <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="img/website/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="img/website/instagram.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="img/website/twitter.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="img/website/youtube.png" alt=""></a></li>
+            <li><a href="https://www.pinterest.com" target="_blank"><img src="img/website/pinterest.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--- MOBILE NAVIGATION --->
+
+    <div class="navigation mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li class="mobile-toggle"><a href="#">Destinations<i class="fa fa-caret-down"></i></a></li>
+        <div class="dropdown-content-mobile">
+          <ul>
+            <li><a href="#">Tansania</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Rio de Janeiro</a></li>
+          </ul>
+        </div>
+        <li><a href="#">What to pack</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <!--- MAIN CONTENT START --->
+
+    <div class="main-content">
+      <div class="gallery-content">
+        <div class="gallery-headline">
+          <h2>Gallery</h2>
+        </div>
+        <div class="gallery-images">
+          <img src="img/website/new-york-1_thumb.jpg" alt="modal-image" data-index="0" data-caption="New York">
+          <img src="img/website/new-york-2_thumb.jpg" alt="modal-image" data-index="1" data-caption="New York">
+          <img src="img/website/new-york-3_thumb.jpg" alt="modal-image" data-index="2" data-caption="New York">
+          <img src="img/website/tanzania-1_thumb.jpg" alt="modal-image" data-index="3" data-caption="Tanzania">
+          <img src="img/website/tanzania-2_thumb.jpg" alt="modal-image" data-index="4" data-caption="Tanzania">
+          <img src="img/website/tanzania-3_thumb.jpg" alt="modal-image" data-index="5" data-caption="Tanzania">
+          <img src="img/website/tanzania-4_thumb.jpg" alt="modal-image" data-index="6" data-caption="Tanzania">
+          <img src="img/website/rio-de-janeiro-1_thumb.jpg" alt="modal-image" data-index="7" data-caption="Rio de Janeiro">
+          <img src="img/website/rio-de-janeiro-2_thumb.jpg" alt="modal-image" data-index="8" data-caption="Rio de Janeiro">
+          <img src="img/website/rio-de-janeiro-3_thumb.jpg" alt="modal-image" data-index="9" data-caption="Rio de Janeiro">
+          <img src="img/website/rio-de-janeiro-4_thumb.jpg" alt="modal-image" data-index="10" data-caption="Rio de Janeiro">
+          <img src="img/website/rio-de-janeiro-5_thumb.jpg" alt="modal-image" data-index="11" data-caption="Rio de Janeiro">
+        </div>
+      </div>
+    </div>
+
+    <!--- MAIN CONTENT END --->
+
+    <!--- MODAL CONTENT START --->
+    <div id="modal-window" class="modal">
+      <span id="closeButton"><i class="fa fa-window-close"></i></span>
+      <img class="modal-content" id="modal-image">
+      <div class="data-caption">
+        <h2>Caption</h2>
+      </div>
+      <div class="image-info">
+        1 / 12
+      </div>
+      <span id="prev-button"><i class="fa fa-angle-left"></i></span>
+      <span id="next-button"><i class="fa fa-angle-right"></i></span>
+    </div>
+
+    <!--- MODAL CONTENT END --->
+
+    <!--- FOOTER START --->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>Copyright 2020. All rights reserved</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="footer-nav"><a href="contact.html">Contact</a></li>
+            <li class="footer-nav"><a href="#">Press</a></li>
+          </ul>
+          <div class="footer-icons">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="img/website/facebook.png" alt=""></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="img/website/instagram.png" alt=""></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="img/website/twitter.png" alt=""></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><img src="img/website/youtube.png" alt=""></a></li>
+              <li><a href="https://www.pinterest.com" target="_blank"><img src="img/website/pinterest.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--- FOOTER END --->
+
+  </div>
+
+  <script src="js/navigation.js" charset="utf-8"></script>
+  <script src="js/backtotop.js" charset="utf-8"></script>
+  <script src="js/gallery.js" charset="utf-8"></script>
+
+  </script>
+</body>
+
+</html>
